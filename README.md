@@ -16,7 +16,7 @@ Chrome Extension タブ保存機能
 
 ## Requirement
 
-`Google Chrome` i40.0.2214.91 (64-bit) で動作確認
+`Google Chrome` 40.0.2214.91 (64-bit) で動作確認
 
 ## Author
 
