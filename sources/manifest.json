@@ -1,0 +1,16 @@
+{
+	"manifest_version":2,
+	"name":"K-Tab Cacher",
+	"version":"1.0",
+	"description":"\u5168\u3066\u306e\u30bf\u30d6\u306e\u30ad\u30e3\u30c3\u30b7\u30e5\u767b\u9332\u3092\u884c\u3046",
+	"icons":{
+		"48":"images\/icon-48.png",
+		"128":"images\/icon-128.png"
+	},
+	"browser_action":{
+		"default_icon":"images\/icon-19.png",
+		"default_popup":"popup.html"
+	},
+	"options_page":"options.html",
+	"permissions":["tabs"]
+}

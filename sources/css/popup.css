@@ -1,0 +1,101 @@
+@charset 'utf-8';
+@import './reset.css';
+
+body{
+	background-color: #F0F0F0;
+}
+
+div#application{
+	width: 240px;
+	font-size: 14px;
+	padding: 8px 0px;
+	text-align: center;
+}
+
+ul#commands{
+	padding: 5px 0px;
+}
+li.command{
+	width: 230px;
+	padding: 5px 5px;
+	text-align: right;
+	color: black;
+	font-size: 12px;
+	background-color: transparent;
+	cursor: pointer;
+	white-space: nowrap;
+}
+li.command:hover{
+	background-color: #ADD8E7;
+}
+hr#line , li#restore{
+	display: none;
+}
+span#date{
+	position: relative;
+	display: inline-block;
+	font-size: 10px;
+	max-width: 180px;
+	top: 1px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+div#saveAs{
+	display: none;
+}
+label#nameLabel{
+	display: block;
+	width: 225px;
+	padding: 5px 5px 5px 10px;
+	font-size: 12px;
+	margin-top: 5px;
+}
+input#nameInput{
+	position: relative;
+	top: -5px;
+	padding-right: 5px;
+	float: right;
+	width: 180px;
+	height: 16px;
+	outline: none;
+}
+div#buttons{
+	width: 230px;
+	height: 20px;
+	overflow: hidden;
+	padding: 5px 5px 15px;
+}
+div#buttons > button{
+	position: relative;
+	padding: 3px 0px;
+	color: #333;
+	font-size: 12px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+	white-space: nowrap;
+	background-color: #eaeaea;
+	background-repeat: repeat-x;
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fafafa), color-stop(100%, #eaeaea));
+	background-image: -webkit-linear-gradient(#fafafa, #eaeaea);
+	background-image: -moz-linear-gradient(#fafafa, #eaeaea);
+	background-image: -o-linear-gradient(#fafafa, #eaeaea);
+	background-image: linear-gradient(#fafafa, #eaeaea);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+	border-bottom-color: #c4c4c4;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+	vertical-align: middle;
+	cursor: pointer;
+}
+button#backButton{
+	float: left;
+	width: 80px;
+}
+button#saveButton{
+	float: right;
+	width: 140px;
+}
